@@ -46,11 +46,16 @@ a {
 
 .bloccoartic {
     display: flex;
+    position: relative;
     margin: 10px;
     width: calc(80% / 3);
     height: 600px;
     background-color: rgba(211, 211, 211, 0.497);
-    justify-content: flex-end;
+}
+
+.bloccoartic > .poscuore {
+    position: absolute;
+    right: 0;
 }
 
 .contcuore {
@@ -71,4 +76,28 @@ a {
 
 .cuore:hover {
     background-image: url(img/icons8-favorite-64\ \(1\).png);
+}
+
+.descrizione {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+}
+
+.prezzoinline {
+    display: flex;
+    flex-direction: row;
+}
+
+.prezzoinline span {
+    padding-right: 10px;
+}
+
+.color {
+    color: red;
+    
 }
