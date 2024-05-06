@@ -47,6 +47,7 @@ a {
 .bloccoartic {
     display: flex;
     position: relative;
+    display: inline-block;
     margin: 10px;
     width: calc(80% / 3);
     height: 600px;
@@ -55,6 +56,7 @@ a {
 
 .bloccoartic > .poscuore {
     position: absolute;
+    z-index: 99;
     right: 0;
 }
 
@@ -99,5 +101,25 @@ a {
 
 .color {
     color: red;
+}
+
+.contimg img {
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+    width: 100%;
     
 }
+
+.imgsotto {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contimg:hover .imgsotto {
+    display: inline;
+}
+
