@@ -33,11 +33,10 @@ a {
     padding-right: 100px;
 }
 
-body {
-    
-}
-
 .bloccoartic {
     display: flex;
-    width: ;
+    
+    width: 300px;
+    height: 700px;
+    background-color: aliceblue;
 }
