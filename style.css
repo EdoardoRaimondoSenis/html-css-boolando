@@ -21,7 +21,7 @@ header a {
 }
 
 header a > img {
-    width: 35px;
+    width: 30px;
 }
 
 a {
@@ -30,5 +30,14 @@ a {
 
 #boolean-logo {
     width: 175px;
-    padding-right: 90px;
+    padding-right: 100px;
+}
+
+body {
+    
+}
+
+.bloccoartic {
+    display: flex;
+    width: ;
 }
